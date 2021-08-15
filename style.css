@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+:root{
+    --primary-color: #E5E7EB;
+    --secondary-color: #D1D5DB;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    min-height: 100vh;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+
+nav{
+    margin:0;
+    background-color: var(--primary-color);
+}
+
+h2{
+    margin:0;
+}
+
+footer{
+    background-color: var(--primary-color);
+}
