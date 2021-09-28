@@ -1,28 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 
 :root{
-    --primary-color: #E5E7EB;
-    --secondary-color: #D1D5DB;
+    --primary-color:#F472B6;
+    --darker-color:#EC4899;
+    --secondary-color: #FCE7F3;
+    --medium-dark:#F9A8D4;
+    --white:#FFFFFF;
+    --black:#000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-align:center;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2rem;
+}
+.heading{
+    background-color: var(--primary-color);
+    padding:2rem;
+    border-bottom-right-radius: 1.3rem;
+    max-width: 85%;
+    margin: auto;
+    border-bottom-left-radius: 1.3rem;
+
+}
+.nav-brand{
+    text-align:left;
+    padding:0.5rem;
+    color:var(--white);
+    font-size: 2rem;
+}
+.nav-list{
+    float:right;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.link{
+    text-decoration:none;
+    color: var(--black);   
+    
+}
+.link-white{
+    color:var(--white);
+}
+.display-inline{
+    display:inline;
+    padding:1.3rem;
+    
 }
 
-body{
-    margin: 0;
-    padding:0;
-    min-height: 100vh;
-    font-family: 'Playfair Display', serif;
+.image-portfolio{
+    max-width:350px;
+    padding:2rem;
+    margin:auto;
+}
+.section{
+    margin:auto;
+    border-radius:1rem;
+    padding:3rem;
+    max-width: 80%;
+}
+.colored-section{
+    background-color: var(--secondary-color);
+    
+}
+.different-color-text{
+    color:var(--darker-color);
+    font-size: 1.5rem;
+}
+.intro{
+    font-size: 1.5rem;
+}
+.sec-head{
+    padding:1.2rem;
+}
+.button{
+    border:2px solid var(--medium-dark);
+    padding:0.6rem;
+    margin:1rem;
+    border-radius: 0.3rem;
+    
+}
+
+ul{
+    margin-block-start: 0;
+    margin-block-end:0;
+    margin-inline-start:0;
+    margin-inline-end:0;
+    padding-inline-start: 0;
+}
+button{
+    background-color: var(--medium-dark);
+    padding:0.5rem 0.7rem;
+    margin:0.2rem;
+    cursor:pointer;
+    border-radius: 0.3rem;
     
 
+    
 }
+button:hover{
+    background-color: var(--darker-color);
 
-nav{
-    margin:0;
+}
+p{
+    padding:1rem;
+}
+.footer{
     background-color: var(--primary-color);
+    padding:1.5rem;
+    border-top-right-radius: 1.3rem;
+    max-width: 85%;
+    margin:2rem auto 0 auto;
+    border-top-left-radius: 1.3rem;
 }
+.nametext{
+    color:var(--white);
+    font-size: 1.4rem;
+}
+.fa{
+    color:var(--white);  
+}
+.fa-linkedin:before, .fa-github:before, .fa-twitter:before {
+    font-size: 2rem;
+}    
 
-h2{
-    margin:0;
-}
 
-footer{
-    background-color: var(--primary-color);
-}
+
+
+

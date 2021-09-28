@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>Maitreyee's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-        <header>
-            <nav>
-                <h2>Maitreyee</h2>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="project.html">Projects</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="main">
-            <div class="introduction">
-                <h1>Maitreyee Nath the <span>Front End Developer</span></h1>
-                <img src="./assets/image2.svg" alt="image of a girl">
-                <p>Hi I am Maitreyee. Nice to meet you </p>
-                <p>I love building websites and styling them. I also like reading books and listening to music.</p>
-            </div>
-            <div class="technologies">
-                <h3>The technologies I work with</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
+    <header class="heading">
+        <h2 class="nav-brand">Maitreyee</h2>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="header-list list-non-bullet display-inline ">
+                    <a href="#" class="link link-white">Home
+                    </a>
+                </li>
+                <li class="header-list list-non-bullet display-inline "><a href="project.html" class="link link-white">Projects</a>
+                </li>
+                <li class="header-list list-non-bullet display-inline ">
+                    <a href="blog.html" class="link link-white">Blogs
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-            </div>
-            <div class="projects">
-                <h3>Here are some of my projects</h3>
-                <div class="card"><a href="#">Project 1</a></div>
-                <div class="card"><a href="#">Project 2</a></div>
-                <div class="card"><a href="#">Project 3</a></div>
-                <a href="project.html">See More Projects...</a>
-
-            </div>
-            <div class="blogs">
-                <h3>I also like to write blogs. You can check them out here</h3>
-                <button><a href="blog.html">Go to Blogs Page</a></button>
-            </div>
-            
+    <div class="main">
+        <div class="introduction">
+            <img src="./assets/home.svg" alt="image of a girl" class="image-portfolio">
+            <p class="section intro ">
+                Hi I'm Maitreyee a 
+                <span class="different-color-text">Web Developer</span>
+                <br>Nice to meet you
+            </p>
+            <p class="section colored-section">
+                I love building web applications and styling them. I also like reading books and listening
+                to music.</p>
         </div>
-        
-        <footer>
-            <h3><i>Believe you can and you're halfway there.</i></h3>
-            <h3>Connect With Me</h3>
+        <div class="section technology ">
+            <h3 class="sec-head">The technologies I am familiar with</h3>
             <ul>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Instagram</a></li>
+                <li class="list-non-bullet display-inline button point">HTML</li>
+                <li class="list-non-bullet display-inline button point">CSS</li>
+                <li class="list-non-bullet display-inline button point">JavaScript</li>
+                <li class="list-non-bullet display-inline button point">React</li>
             </ul>
 
-        </footer>    
+        </div>
+        <div class="section projects colored-section">
+            <h3 >My projects</h3>
+            <p>Here are some of my projects to showcase my skills</p>
+            <button>
+                <a class="link" href="project.html">Projects</a>
+            </button>
+
+        </div>
+        <div class="section blogs">
+            <h3> My Blogs</h3>
+               <p>Here you can find some of the blogs I have written. Check them out.</p> 
+            <button>
+                <a href="blog.html" class="link">Go to Blogs Page</a>
+            </button>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p class="nametext">Contact me</p>
+        <ul>
+            <li class="list-non-bullet display-inline"><a href="https://twitter.com/maitreyee__nath" target="__blank" ><i class="fa fa-twitter"></i></a></li>
+            <li class="list-non-bullet display-inline"><a href="https://github.com/mnath30" target="__blank"><i class="fa fa-github"></i></a></li>
+            <li class="list-non-bullet display-inline"><a href="https://www.linkedin.com/in/maitreyee-nath-211096127?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZcCecq5VS%2BKX4%2FTk0FLFKw%3D%3D" target="__blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        </footer>
 </body>
+
 </html>

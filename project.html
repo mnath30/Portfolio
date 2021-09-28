@@ -1,104 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <title>Maitreyee's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-        <header>
-            <nav>
-                <h2 class="name">Maitreyee</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header class="heading">
+        <h2 class="nav-brand">Maitreyee</h2>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="header-list list-non-bullet display-inline ">
+                    <a href="index.html" class="link link-white">Home
+                    </a>
+                </li>
+                <li class="header-list list-non-bullet display-inline "><a href="#" class="link link-white">Projects</a>
+                </li>
+                <li class="header-list list-non-bullet display-inline ">
+                    <a href="blog.html" class="link link-white">Blogs
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="main">
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>Friends Quizz</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>Minion Speak</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>Yoda Speak</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>React Project 1</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>React book recommendation</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
-            <div class="card">
-                <h3>How Well Do You Know Me</h3>
-                <button>Source Code</button>
-                <button>Live Project</button>
-            </div>
+    <div class="main">
+        <div class="introduction">
+            <img src="./assets/project.svg" alt="image of a girl" class="image-portfolio">
+            <p class="section intro ">
+                My Projects
+            </p>
+        </div>
+        <div class="section technology colored-section">
+            <h3>Profit or Loss Calculator</h3>
+            <p>A website which tells the user if they have made profit or loss in their stocks</p>
+            <button><a href="https://stock-profit-and-loss-calculator.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/Stock-profit-loss-calculator.git" class="link" target="__blank">Source Code</a></button>
+        </div>
 
+        <div class="section technology">
+            <h3>Palindrome Birthday</h3>
+            <p>Is your birthday a plaindrome or not?</p>
+            <button><a href="" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/Palindrome-Birthday.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology colored-section">
+            <h3>Triangles and You</h3>
+            <p>This application will allow the user to solve some interesting questions about triangles</p>
+            <button><a href="https://triangles-and-you.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/Fun-with-triangles.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology">
+            <h3>Lucky Birthdays</h3>
+            <p>Is your birthday lucky? Let's find out</p>
+            <button><a href="https://do-you-have-a-lucky-birthday.netlify.app/" class="link">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/Lucky-Bithdate.git" class="link">Source Code</a></button>
+        </div>
+
+        <div class="section technology colored-section">
+            <h3>Cash Register</h3>
+            <p>This application will help the user to calculate the change amout to be returned to the customer with minimum number of notes</p>
+            <button><a href="https://return-cash-register.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/CashRegister.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology">
+            <h3>Book Villa</h3>
+            <p>This application will recommend some of my favourite books to you</p>
+            <button><a href="https://codesandbox.io/s/github/mnath30/BookRecommendation" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/BookRecommendation.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology colored-section">
+            <h3>Animal Emoji Interpreter</h3>
+            <p>Which animal emoji do you want to know about today?</p>
+            <button><a href="https://interpret-animal-emoji.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/AnimalEmojiInterpreter.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology ">
+            <h3>Pirate Speak</h3>
+            <p>Let's speak like Captain Jack Sparrow</p>
+            <button><a href="https://speak-like-pirate.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/PirateSpeak.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology colored-section">
+            <h3>Minionese</h3>
+            <p>Translate english language to the language spoken by the minions</p>
+            <button><a href="https://speaklike-minions.netlify.app/" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/Minion-Speak.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology ">
+            <h3>Friends Fan?</h3>
+            <p>How well do you know FRIENDS? Answer some questions and find out for yourself</p>
+            <button><a href="" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/FriendsQuiz.git" class="link" target="__blank">Source Code</a></button>
+        </div>
+
+        <div class="section technology colored-section">
+            <h3>Do you Know Me?</h3>
+            <p>A CLI quiz about myself</p>
+            <button><a href="" class="link" target="__blank">Live Project</a></button>
+            <button><a href="https://github.com/mnath30/HowWellDoYouKnowMe.git" class="link" target="__blank">Source Code</a></button>
         </div>
         
-
-        
-        <footer>
-            <h3><i>Believe you can and you're halfway there.</i></h3>
-            <h3>Connect With Me</h3>
+        <footer class="footer">
+            <p class="nametext">Contact me</p>
             <ul>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Instagram</a></li>
+                <li class="list-non-bullet display-inline"><a href="https://twitter.com/maitreyee__nath" target="__blank" ><i class="fa fa-twitter"></i></a></li>
+                <li class="list-non-bullet display-inline"><a href="https://github.com/mnath30" target="__blank"><i class="fa fa-github"></i></a></li>
+                <li class="list-non-bullet display-inline"><a href="https://www.linkedin.com/in/maitreyee-nath-211096127?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZcCecq5VS%2BKX4%2FTk0FLFKw%3D%3D" target="__blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
-
         </footer>
     
 </body>
