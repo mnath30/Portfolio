@@ -5,7 +5,8 @@ Portfolio is my digital resume containing information about my skills and all th
 ## Features
 
 My portfolio lists all the technologies that I am familiar with.
-Portfolio contains the following pages:
+
+My portfolio contains the following pages:
  * Projects
    *  Projects page lists all the projects that I have worked on. For each project the scour code has been provided along with the link to see the live project hosted online.
  * Blogs
