@@ -8,7 +8,7 @@ My portfolio lists all the technologies that I am familiar with.
 
 My portfolio contains the following pages:
  * Projects
-   *  Projects page lists all the projects that I have worked on. For each project the scour code has been provided along with the link to see the live project hosted online.
+   *  Projects page lists all the projects that I have worked on. For each project the source code has been provided along with the link to see the live project hosted online.
  * Blogs
    *  Blogs page provides information about all the blogs that I have written.
 
