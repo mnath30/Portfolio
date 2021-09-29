@@ -134,6 +134,9 @@ p{
 .fa-linkedin:before, .fa-github:before, .fa-twitter:before {
     font-size: 2rem;
 }    
+.ovf{
+    overflow-y: hidden;
+}
 
 
 
