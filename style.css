@@ -140,6 +140,14 @@ p{
 .ovf{
     overflow-y: hidden;
 }
+.blog{
+    max-width:70%;
+    text-align: justify;
+}
+hr{
+    margin-bottom:2rem;
+    margin-top: 2rem;
+}
 
 
 

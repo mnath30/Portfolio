@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Maitreyee's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="heading">
+        <h2 class="nav-brand">Maitreyee's Blog</h2>
+    </header>
+
+    <div class="main blog">
+        <div class="introduction">
+            <p>
+                <h3><i>Version Control and Git</i></h3>
+
+                <p>
+                    Version control helps to manage and track the changes made to software code. Every time any changes
+                    are made, they are all tracked and documented which in turn helps the developers to go back to the
+                    code, compare the earlier versions of the code and revert to the last working code if the new
+                    functionality messes up the code in any way. This makes the developer's job a lot easier. Also,
+                    multiple team members can independently work on separate features of the same project without
+                    worrying about conflicts and then they can merge their changes after they finish their work to the
+                    master branch. If any conflicts occur or errors are encountered when any new changes are merged, the
+                    developers always have the option to go back to the last working code and undo the changes. Cool
+                    right?
+                </p>
+                <p>
+                    I still remember when I had no idea about what version control was and each time when I wanted to
+                    make any changes to the code of my projects, I used to save the entire code in other folder and then
+                    make changes to the code. This resulted in several versions of the entire project being saved at
+                    multiple locations and occupying a lot of space. Also, it was very difficult to track all the
+                    changes made. So once I came to know about Git and GitHub, it seemed like a blessing.
+                </p>
+                <b><i>What is Git and GitHub?</i></b>
+                <p>
+                    Let us first learn about Git. Git is a free and open-source distributed version control system. It
+                    helps the users to track the changes every time any new feature is added with the help of messages.
+                    These messages help the users to understand what changes were made at that point of time.
+
+                </p>
+                <p>
+                    Let us understand this with the help of an example. Imagine that you are working on a project along
+                    with two other team members and each one of you have decided to work on separate features of the
+                    same project. So now all of you will be working independently and after completing your respective
+                    features, each one of you can then merge your code together. So before starting you will all create
+                    separate branches for working on your features and after completing, you will each merge your code
+                    to the initial branch. If at any point of time after merging, the code breaks, then you can go
+                    through the previous versions of the code and undo the changes by referring to the commit messages.
+                    Git helps to keep track of source code history. All these Git repositories can then be stored in
+                    GitHub.
+                </p>
+
+                <p>
+                    What is GitHub you ask? Yea so GitHub is basically a cloud-based hosting service that lets us manage
+                    all our git repositories. So, if I upload my project to GitHub then I will be able to download it
+                    from there and work on it from anywhere. I don’t have to worry about always carrying my laptop
+                    around with me to work on my project. This is the best thing about storing things on cloud. Not only
+                    me, if I make my project public on GitHub, anyone will be able to see and access it.
+                </p>
+                <b><i>Alternatives to GitHub</i></b>
+                <p>
+                    We also have various alternatives to GitHub like BitBucket, GitLab, SourceForge, AWS CodeCommit,
+                    etc.
+                </p>
+
+                <b><i>Let us now see some of the most used git commands and what do they do:</i></b>
+
+                <br>
+                <b><i>Git Init</i></b>
+                <p>This command is used to create a new Git repository.
+                </p>
+                <b><i>Command: git init</i></b>
+
+                <br><hr>
+                <b><i>Git Clone</i></b>
+                <p>This command is used to download the entire git repository from the remote location to user’s local
+                    machine. </p>
+                <b><i>Command: git clone "url of remote repository" </i></b>
+
+                <br><hr>
+                <b><i>Git Branch</i></b>
+                <p>This command is used to create separate branches of the same repository which allows users to work
+                    independently on different parts of the same project </p>
+                <b><i>Command: git branch 'branchname'</i></b>
+                    <br><hr>
+                <b><i>Git Checkout</i></b>
+                <p>Once user creates new branches, user can use this command to switch to the other branches.</p>
+                <b><i>Command: git checkout </i></b>
+
+                <br><hr>
+                <b><i>Git Add</i></b>
+                <p>Before pushing code to the remote repository, the user needs to add all the files where the changes
+                    were made to the staging area which informs git to track the changes of those files. This command is
+                    used to add the files to the staging area.</p>
+                <b><i>Command: git add 'filename'</i></b>
+
+                <br><hr>
+                <b><i>Git Commit</i></b>
+                <p>This command is used to commit the changes i.e save the changes to the directory where user is working. Every time commit is executed, the user has to enter a meaningful message which helps the
+                    user or any other team member to understand what changes were made.</p>
+                <b><i>Command: Git commit -m 'commit message'</i></b>
+
+                <br><hr>
+                <b><i>Git Push</i></b>
+                <p>This command is used to push all the changes made by the user locally to the remote repository which
+                    can then be accessed and modified by other team members</p>
+                <b><i>Command: Git push "remote" "branchname"</i></b>
+
+                <br><hr>
+                <b><i>Git Pull</i></b>
+                <p>This command is used to pull all the changes made by any other team members in user’s local machine
+                    and merge the changes with the user’s local copy.</p>
+                <b><i>Command: Git pull "remote"</i></b>
+
+                <br><hr>
+                <b><i>Git Log</i></b>
+                <p>This command displays the entire commit history</p>
+                <b><i>Command: Git log</i></b>
+
+                <br><hr>
+                <b><i>Git Merge</i></b>
+                <p>This command is used to merge any new branches created by the user into the current branch.</p>
+                <b><i>Command: git merge "branch"</i></b>
+
+                <br><hr>
+                <p>
+                    So to sum it all up, version control is used to track and manage changes to software code. Git is an
+                    open source distributed version control system that manages and tracks the code source code history
+                    and GitHub is a cloud based hosting service that is used to store and manage all the git
+                    repositories on cloud.
+                </p>
+
+
+            </p>
+        </div>
+    </div>
+
+
+        <footer class="footer">
+            <p class="nametext">Contact me</p>
+            <ul>
+                <li class="list-non-bullet display-inline"><a href="https://twitter.com/maitreyee__nath"
+                        target="__blank"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-non-bullet display-inline"><a href="https://github.com/mnath30" target="__blank"><i
+                            class="fa fa-github"></i></a></li>
+                <li class="list-non-bullet display-inline"><a
+                        href="https://www.linkedin.com/in/maitreyee-nath-211096127?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZcCecq5VS%2BKX4%2FTk0FLFKw%3D%3D"
+                        target="__blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+
+</body>
+
+</html>
